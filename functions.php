@@ -15,3 +15,43 @@ function vpnhunt_enqueue_scripts() {
     wp_localize_script( 'custom', 'front_urls', array( 'theme_url' => get_site_url() . '/wp-content/themes/vpnhunt-theme', 'ajaxUrl' => admin_url( 'admin-ajax.php') ) );
     
 }
+
+
+/*
+"restoreTerminals.terminals": [
+
+
+        {
+          "splitTerminals": [
+            {
+              "name": "Property Frontend",
+              "commands": ["cd property/angular", "ng serve"]
+            }
+          ]
+        },
+        {
+          "splitTerminals": [
+            {
+              "name": "Property Backend",
+              "commands": ["cd property/backend", "nodemon"]
+            }
+          ]
+        },
+        {
+          "splitTerminals": [
+            {
+              "name": "",
+              "commands": ["cd laravel", "php artisan serve --port='8080'"]
+            }
+          ]
+        },
+        {
+          "splitTerminals": [
+            {
+              "name": "Angular CMD",
+              "commands": ["cd property/angular", ""]
+            }
+          ]
+        }
+      ],
+*/
