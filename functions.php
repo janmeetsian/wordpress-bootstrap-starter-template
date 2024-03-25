@@ -18,7 +18,16 @@ function vpnhunt_enqueue_scripts() {
 
 
 /*
-"restoreTerminals.terminals": [
+{
+    "explorer.confirmDelete": false,
+    "diffEditor.wordWrap": "on",
+    "terminal.integrated.persistentSessionScrollback": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+    "terminal.integrated.tabs.title": "${process}${cwd}",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "restoreTerminals.keepExistingTerminalsOpen": true,
+    "restoreTerminals.terminals": [
 
 
         {
@@ -54,4 +63,6 @@ function vpnhunt_enqueue_scripts() {
           ]
         }
       ],
+      
+}
 */
